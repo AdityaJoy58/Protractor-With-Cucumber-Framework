@@ -1,0 +1,535 @@
+[
+  {
+    "id": "Buttons-in-Home-page",
+    "name": "Buttons in Home page",
+    "description": "As a user on hitting the url\r\nI should see Login page\r\nI should be able to see and verify Facebook, Signup buttons.",
+    "line": 2,
+    "keyword": "Feature",
+    "tags": [
+      {
+        "name": "@home-page",
+        "line": 1
+      },
+      {
+        "name": "@home",
+        "line": 1
+      },
+      {
+        "name": "@buttons",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Protractor_Cucumber_Fmwk/tests/e2e/featureFiles/LoginFunctionality/Home_Buttons.feature",
+    "elements": [
+      {
+        "name": "Verify the Login with Facebook button present on Home page",
+        "id": "Buttons-in-Home-page;verify-the-login-with-facebook-button-present-on-home-page",
+        "line": 8,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@homepage",
+            "line": 7
+          },
+          {
+            "name": "@home",
+            "line": 7
+          },
+          {
+            "name": "@button",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "name": "Instagram application is loaded",
+            "line": 9,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 7421963028
+            },
+            "match": {}
+          },
+          {
+            "name": "Home page appears",
+            "line": 10,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 135807280
+            },
+            "match": {}
+          },
+          {
+            "name": "Login with Facebook button present",
+            "line": 11,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 87646370
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168658
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Verify SignUp button present on Home page",
+        "id": "Buttons-in-Home-page;verify-signup-button-present-on-home-page",
+        "line": 14,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@homepage",
+            "line": 13
+          },
+          {
+            "name": "@home",
+            "line": 13
+          },
+          {
+            "name": "@button",
+            "line": 13
+          }
+        ],
+        "steps": [
+          {
+            "name": "Instagram application is loaded",
+            "line": 15,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 1415913921
+            },
+            "match": {}
+          },
+          {
+            "name": "Home page appears",
+            "line": 16,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 86335764
+            },
+            "match": {}
+          },
+          {
+            "name": "SignUp button present",
+            "line": 17,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 126684355
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 109474
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Fields-in-Home-page",
+    "name": "Fields in Home page",
+    "description": "As a user on hitting the url\r\nI should see Login page\r\nI should be able to see Email, Full Name, Username, Password fields.",
+    "line": 2,
+    "keyword": "Feature",
+    "tags": [
+      {
+        "name": "@home-page",
+        "line": 1
+      },
+      {
+        "name": "@home",
+        "line": 1
+      },
+      {
+        "name": "@fields",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Protractor_Cucumber_Fmwk/tests/e2e/featureFiles/LoginFunctionality/Home_Fields.feature",
+    "elements": [
+      {
+        "name": "Verify the Email field present on Home page",
+        "id": "Fields-in-Home-page;verify-the-email-field-present-on-home-page",
+        "line": 8,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@homepage",
+            "line": 7
+          },
+          {
+            "name": "@home",
+            "line": 7
+          },
+          {
+            "name": "@field",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "name": "Instagram application is loaded",
+            "line": 9,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 1285346327
+            },
+            "match": {}
+          },
+          {
+            "name": "Home page appears",
+            "line": 10,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 86567027
+            },
+            "match": {}
+          },
+          {
+            "name": "Email field present",
+            "line": 11,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 82877763
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 60894
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Verify Full Name field present on Home page",
+        "id": "Fields-in-Home-page;verify-full-name-field-present-on-home-page",
+        "line": 14,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@homepage",
+            "line": 13
+          },
+          {
+            "name": "@home",
+            "line": 13
+          },
+          {
+            "name": "@field",
+            "line": 13
+          }
+        ],
+        "steps": [
+          {
+            "name": "Instagram application is loaded",
+            "line": 15,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 1202965301
+            },
+            "match": {}
+          },
+          {
+            "name": "Home page appears",
+            "line": 16,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 96308820
+            },
+            "match": {}
+          },
+          {
+            "name": "Full Name field present",
+            "line": 17,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 83217131
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 60553
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Verify the Username field present on Home page",
+        "id": "Fields-in-Home-page;verify-the-username-field-present-on-home-page",
+        "line": 20,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@homepage",
+            "line": 19
+          },
+          {
+            "name": "@home",
+            "line": 19
+          },
+          {
+            "name": "@field",
+            "line": 19
+          }
+        ],
+        "steps": [
+          {
+            "name": "Instagram application is loaded",
+            "line": 21,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 1182289821
+            },
+            "match": {}
+          },
+          {
+            "name": "Home page appears",
+            "line": 22,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 88822528
+            },
+            "match": {}
+          },
+          {
+            "name": "Username field present",
+            "line": 23,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 80785446
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 92368
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Verify Password field present on Home page",
+        "id": "Fields-in-Home-page;verify-password-field-present-on-home-page",
+        "line": 26,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@homepage",
+            "line": 25
+          },
+          {
+            "name": "@home",
+            "line": 25
+          },
+          {
+            "name": "@field",
+            "line": 25
+          }
+        ],
+        "steps": [
+          {
+            "name": "Instagram application is loaded",
+            "line": 27,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 1371090933
+            },
+            "match": {}
+          },
+          {
+            "name": "Home page appears",
+            "line": 28,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 93941451
+            },
+            "match": {}
+          },
+          {
+            "name": "Password field present",
+            "line": 29,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 84635158
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 96132
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Login-Functionality",
+    "name": "Login Functionality",
+    "description": "As a user on hitting the url\r\nI should see Login page\r\nI should be able to login through login page.",
+    "line": 2,
+    "keyword": "Feature",
+    "tags": [
+      {
+        "name": "@home-page",
+        "line": 1
+      },
+      {
+        "name": "@home",
+        "line": 1
+      },
+      {
+        "name": "@logins",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Protractor_Cucumber_Fmwk/tests/e2e/featureFiles/LoginFunctionality/Login.feature",
+    "elements": [
+      {
+        "name": "Verify the Login with Log in Link present on Home page",
+        "id": "Login-Functionality;verify-the-login-with-log-in-link-present-on-home-page",
+        "line": 8,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@homepage",
+            "line": 7
+          },
+          {
+            "name": "@home",
+            "line": 7
+          },
+          {
+            "name": "@login",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "name": "Instagram Application is opened with Sign Up page",
+            "line": 9,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 1169154685
+            },
+            "match": {}
+          },
+          {
+            "name": "User Click on Log in link",
+            "line": 10,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 181555662
+            },
+            "match": {}
+          },
+          {
+            "name": "Enter Username and Password",
+            "line": 11,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 178213293
+            },
+            "match": {}
+          },
+          {
+            "name": "Click on Log In button",
+            "line": 12,
+            "keyword": "And ",
+            "result": {
+              "status": "passed",
+              "duration": 61330257
+            },
+            "match": {}
+          },
+          {
+            "name": "Verify Login Successfully into the Instagram Application",
+            "line": 13,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 12047263226
+            },
+            "match": {}
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 335263
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  }
+]
