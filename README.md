@@ -1,42 +1,70 @@
-# Prerequisites
+# Protractor-Cucumber Framework
 
-- Node version 4.x or higher
-- Install forever globally using command "npm install forever -g"
+To do an e2e(End to End) test of a non-angular application we can make use of this 
+Protractor-Cucumber Framework, which will support both angular and non-angular applications.
 
-# Building
+Note: For demo purpose, We have used Instagram application(A ReactJs application) to Test.
 
-To setup your development environment from a fresh checkout, do the following:
+# Setup Steps
+
+Checkout the fresh code on the physical machine, do the following:
 
 ```
 $ npm install
 ```
 
-After installation of required packages do run the following proxy task for
-making the service requests.
+This will do the following:
+- Install build-time dependencies (`npm install`).
+
+Once it is done, now the basic setup is done to run sample tests.
+
 ```
-$ npm run proxy
+Gulp is integrated to work with this project. So, you can go ahead by using the below command
+1) $ gulp e2e
+
 ```
 
-Once the Proxy successfully starts do run the application in development mode
-with the following command.
+HTML reports:
+
+HTML report generation is enabled by default. It's default location is /reports/bdd-e2e-report.html.
+
+Framework Structure:
+ We are using BDD Framework with Page object model approach where it will be easy to distinguish all the files used in a structured way,
+
 ```
-$ npm run start
+├── tests
+│   ├── e2e
+│   │   ├── common
+│   │   │   ├── settings.js
+│   │   │   └── ...
+│   │   ├── featureFiles
+│   │   │   ├── LoginFunctionality
+│   │   │   │   ├── Home_Buttons.feature
+│   │   │   │   ├── Home_Fields.feature
+│   │   │   │   ├── Login.feature
+│   │   │   │   └── ...
+│   │   │   │   └── step_definitions
+│   │   │   │       ├── Home_Buttons_steps.js
+│   │   │   │       ├── Home_Fields_steps.js
+│   │   │   │       ├── Login_steps.js
+│   │   │   │       └── ...
+│   │   ├── pages
+│   │   │   ├── homePage.js
+│   │   │   ├── loginPage.js
+│   │   │   └── ...
+│   │   └── support
+│   │   │   ├── env.js
+│   │   │   └── ...
+├── package.json
+├── gulpConfig.js
+├── gulpfile.babel.js
+├── protractor-conf.js
+├── README.md
 ```
 
+## Additions:
 
-# Development
+   Supported Browsers: Chrome, Firefox, IE
+   Multicapabilities: Running the same test in specified Browsers at a time.
+   Parallel Execution: Parallel Executions. Note: Test concurrency is done at the file level. Individual tests/steps in a feature file will not run concurrently.
 
-- Yet to be documented
-
-# Acceptance Tests
-
-You can run the test by executing in 2 ways
-
-1) `npm run test:e2e --env <environment name - browser name> ex: dev-chrome | dev-firefox | dev-ie | qa-chrome | qa-firefox | qa-ie | prod-chrome | prod-firefox | prod-ie `
-2) `node_modules/.bin/nightwatch --env <environment name - browser name> ex: dev-chrome | dev-firefox | dev-ie | qa-chrome | qa-firefox | qa-ie | prod-chrome | prod-firefox | prod-ie `
-
->Note: If no environment and browser name is specified, like running the command as "npm run test:e2e", then it will take the default settings i.e., chrome as default browser and localhost as default environment.
-
-# Tests Reports
-
-HTML report generation is enabled by default. It's default location is reports/cucumber.html.
